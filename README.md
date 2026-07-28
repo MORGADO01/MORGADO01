@@ -1,42 +1,53 @@
-# Olá, sou Fellipe Morgado 👋
+# Olá, eu sou o Fellipe 👋
 
-### Especialista em Cibersegurança | Blue Team Defender | Automação e Resposta a Incidentes
+**Security Engineer** com 8+ anos projetando, implementando e operando stacks completos de segurança defensiva em ambientes de altíssima criticidade — infraestrutura militar e serviços essenciais de saneamento público.
 
----
-
-Sou um profissional apaixonado por cibersegurança com foco em **Blue Team**, dedicado à proteção de sistemas, detecção e resposta a incidentes. Minha expertise inclui:
-
--   **Resposta a Incidentes:** Desenvolvimento e execução de planos de contenção e erradicação.
--   **Hardening de Sistemas:** Implementação de controles de segurança em infraestruturas Windows e Linux.
--   **Automação de Segurança:** Scripts em **PowerShell** e **Python** para otimizar tarefas de segurança e resposta.
--   **Threat Hunting:** Busca proativa por ameaças em ambientes de rede e endpoints.
+Não sou só operador de ferramentas: sou responsável pela escolha técnica, justificativa de investimento e implantação **do zero** das soluções que a organização adota — SIEM, XDR, Vulnerability Management e pipelines DevSecOps.
 
 ---
 
-### 💻 Projetos Destacados
+### 🎯 O que eu faço
 
-Confira alguns dos meus projetos que demonstram minhas habilidades práticas:
-
--   **[Nome do Projeto 1]**: Breve descrição do projeto e link para o repositório.
--   **[Nome do Projeto 2]**: Breve descrição do projeto e link para o repositório.
--   **[Nome do Projeto 3]**: Breve descrição do projeto e link para o repositório.
-
----
-
-### 🌱 Atualmente Aprendendo/Focando em:
-
--   CompTIA Security +
--   Security Analyst - TryHackMe
+- **Detection Engineering** — regras e decoders customizados no Wazuh mapeados ao MITRE ATT&CK
+- **Vulnerability Management** — não entrego relatório bruto de scanner. Identifico → correlaciono com o ambiente via matriz de risco → valido exploitabilidade → priorizo por impacto real de negócio
+- **DevSecOps / AppSec** — esteiras de CI/CD com SAST, DAST e SCA integradas ao ciclo de desenvolvimento
+- **Governança & GRC** — ISO/IEC 27001 Lead Auditor, projetos de adequação a frameworks (NIST, CIS Controls, LGPD)
+- **Threat Detection Research** — projetos autorais como sandbox de análise de malware com DRAKVUF
 
 ---
 
-### 📫 Conecte-se comigo:
+### 📌 Projetos em destaque
 
--   **LinkedIn:** [www.linkedin.com/in/fellipe-morgado-3a6a7a267/]
--   **Email:** [fellipemorgado001@gmail.com]
+| Repositório | Descrição |
+|---|---|
+| [`wazuh-detection-rules`](https://github.com/SEU-USUARIO/wazuh-detection-rules) | Regras e decoders customizados no Wazuh, mapeados ao MITRE ATT&CK |
+| [`malware-sandbox-drakvuf`](https://github.com/SEU-USUARIO/malware-sandbox-drakvuf) | Sandbox agentless de análise de malware (DRAKVUF + Wazuh + ClamAV) |
+| [`devsecops-cicd-pipeline`](https://github.com/SEU-USUARIO/devsecops-cicd-pipeline) | Esteira de segurança em CI/CD (SonarQube, OWASP ZAP, Dependency-Check) |
+| [`vulnerability-risk-matrix`](https://github.com/SEU-USUARIO/vulnerability-risk-matrix) | Framework de priorização de vulnerabilidades por risco real e exploitabilidade |
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MORGADO01&color=blue" alt="Profile views" />
-</p>
+### 🛠️ Stack técnico
+
+**SIEM / XDR:** Wazuh · Microsoft Sentinel · CrowdStrike · Trend Vision One
+**Vulnerability Management:** OpenVAS (GVM) · Tenable Nessus · DefectDojo
+**AppSec / CI-CD:** SonarQube · OWASP ZAP · Dependency-Check · GitLab CI/CD
+**Rede & Perímetro:** pfSense · Suricata (IDS/IPS)
+**Ofensivo (apoio à validação):** Kali Linux · Burp Suite
+**IR & Sandbox:** TheHive · DRAKVUF · ClamAV
+**Governança:** ISO/IEC 27001/27002/27007 · NIST · CIS Controls
+**Automação:** Python · Shell/Bash · XML
+
+---
+
+### 🏅 Certificações
+
+ISO/IEC 27001:2022 Lead Auditor · ISO/IEC 27001 Internal Auditor · ISO/IEC 27002:2022 · ISO/IEC 27007 · API Penetration Testing (APIsec University) · OWASP API Security Top 10
+
+---
+
+### 📫 Contato
+
+[LinkedIn](https://www.linkedin.com/in/fellipe-morgado-3a6a7a267/) · fellipemorgado001@gmail.com
+
+> ⚠️ Todo o conteúdo técnico deste perfil é **sanitizado e generalizado** para fins de portfólio — nenhum dado, configuração ou informação de clientes/empregadores reais é exposto.
