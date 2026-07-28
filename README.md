@@ -20,10 +20,10 @@ Não sou só operador de ferramentas: sou responsável pela escolha técnica, ju
 
 | Repositório | Descrição |
 |---|---|
-| [`wazuh-detection-rules`](https://github.com/SEU-USUARIO/wazuh-detection-rules) | Regras e decoders customizados no Wazuh, mapeados ao MITRE ATT&CK |
-| [`malware-sandbox-drakvuf`](https://github.com/SEU-USUARIO/malware-sandbox-drakvuf) | Sandbox agentless de análise de malware (DRAKVUF + Wazuh + ClamAV) |
-| [`devsecops-cicd-pipeline`](https://github.com/SEU-USUARIO/devsecops-cicd-pipeline) | Esteira de segurança em CI/CD (SonarQube, OWASP ZAP, Dependency-Check) |
-| [`vulnerability-risk-matrix`](https://github.com/SEU-USUARIO/vulnerability-risk-matrix) | Framework de priorização de vulnerabilidades por risco real e exploitabilidade |
+| [`wazuh-detection-rules`](https://github.com/MORGADO01/wazuh-detection-rules) | Regras e decoders customizados no Wazuh, mapeados ao MITRE ATT&CK |
+| [`malware-sandbox-drakvuf`](https://github.com/MORGADO01/malware-sandbox-drakvuf) | Sandbox agentless de análise de malware (DRAKVUF + Wazuh + ClamAV) |
+| [`devsecops-cicd-pipeline`](https://github.com/MORGADO01/devsecops-cicd-pipeline) | Esteira de segurança em CI/CD (SonarQube, OWASP ZAP, Dependency-Check) |
+| [`vulnerability-risk-matrix`](https://github.com/MORGADO01/vulnerability-risk-matrix) | Framework de priorização de vulnerabilidades por risco real e exploitabilidade |
 
 ---
 
