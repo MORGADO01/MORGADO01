@@ -12,7 +12,7 @@ Não sou só operador de ferramentas: sou responsável pela escolha técnica, ju
 - **Vulnerability Management** — não entrego relatório bruto de scanner. Identifico → correlaciono com o ambiente via matriz de risco → valido exploitabilidade → priorizo por impacto real de negócio
 - **DevSecOps / AppSec** — esteiras de CI/CD com SAST, DAST e SCA integradas ao ciclo de desenvolvimento
 - **Governança & GRC** — ISO/IEC 27001 Lead Auditor, projetos de adequação a frameworks (NIST, CIS Controls, LGPD)
-- **Threat Detection Research** — projetos autorais como sandbox de análise de malware com DRAKVUF
+- **DFIR & Threat Detection Research** — projetos autorais como sandbox de análise de malware com DRAKVUF e kit portátil de resposta a incidentes
 
 ---
 
@@ -22,8 +22,9 @@ Não sou só operador de ferramentas: sou responsável pela escolha técnica, ju
 |---|---|
 | [`wazuh-detection-rules`](https://github.com/MORGADO01/wazuh-detection-rules) | Regras e decoders customizados no Wazuh, mapeados ao MITRE ATT&CK |
 | [`malware-sandbox-drakvuf`](https://github.com/MORGADO01/malware-sandbox-drakvuf) | Sandbox agentless de análise de malware (DRAKVUF + Wazuh + ClamAV) |
-| [`devsecops-cicd-pipeline`](https://github.com/MORGADO01/devsecops-cicd-pipeline) | Esteira de segurança em CI/CD (SonarQube, OWASP ZAP, Dependency-Check) |
-| [`vulnerability-risk-matrix`](https://github.com/MORGADO01/vulnerability-risk-matrix) | Framework de priorização de vulnerabilidades por risco real e exploitabilidade |
+| [`devsecops-cicd-pipeline`](https://github.com/MORGADO01/devsecops-cicd-pipeline) | Repositório central de templates reutilizáveis de CI/CD com portões de segurança (SAST, SCA, DAST, Container Scan) |
+| [`vulnerability-management-aggregator`](https://github.com/MORGADO01/vulnerability-management-aggregator) | Ferramenta Python que consolida achados de Wazuh, OpenVAS e Dependency-Check em uma lista priorizada por risco real |
+| [`dfir-pendrive-kit`](https://github.com/MORGADO01/dfir-pendrive-kit) | Kit portátil de resposta a incidentes (DFIR) para Windows — scripts PowerShell que automatizam a coleta de evidências forenses |
 
 ---
 
@@ -34,9 +35,9 @@ Não sou só operador de ferramentas: sou responsável pela escolha técnica, ju
 **AppSec / CI-CD:** SonarQube · OWASP ZAP · Dependency-Check · GitLab CI/CD
 **Rede & Perímetro:** pfSense · Suricata (IDS/IPS)
 **Ofensivo (apoio à validação):** Kali Linux · Burp Suite
-**IR & Sandbox:** TheHive · DRAKVUF · ClamAV
+**IR, DFIR & Sandbox:** TheHive · DRAKVUF · ClamAV · PowerShell (coleta forense)
 **Governança:** ISO/IEC 27001/27002/27007 · NIST · CIS Controls
-**Automação:** Python · Shell/Bash · XML
+**Automação:** Python · Shell/Bash · PowerShell · XML
 
 ---
 
